@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Head-First-Design-Patterns.iml" filepath="$PROJECT_DIR$/Head-First-Design-Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwingPatternExample/SwingPatternExample.iml" filepath="$PROJECT_DIR$/SwingPatternExample/SwingPatternExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeatherAppObserver/WeatherAppObserver.iml" filepath="$PROJECT_DIR$/WeatherAppObserver/WeatherAppObserver.iml" />
+    </modules>
+  </component>
+</project>

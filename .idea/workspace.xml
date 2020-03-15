@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c1a8ebc-775f-4867-afc4-72a1253aeda1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/heatindex.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/adapter/ducks/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/adapter/ducks/DuckAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/adapter/ducks/DuckTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/adapter/ducks/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/adapter/ducks/Turkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/adapter/ducks/TurkeyAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/adapter/ducks/TurkeyTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/adapter/ducks/WildTurkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/adapter/ducks/challenge/Drone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/adapter/ducks/challenge/DroneAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/adapter/ducks/challenge/SuperDrone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/adapter/iterenum/EI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/adapter/iterenum/EnumerationIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/adapter/iterenum/EnumerationIteratorTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/adapter/iterenum/IteratorEnumeration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/adapter/iterenum/IteratorEnumerationTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/bridge/remote/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/bridge/remote/GenericRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/bridge/remote/LG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/bridge/remote/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/bridge/remote/Sony.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/bridge/remote/SpecialRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/bridge/remote/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/bridge/remote/TVFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/house/GingerbreadHouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/house/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/house/HouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/house/HouseDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/house/InteriorWall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/house/Roof.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/house/StoneHouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/house/Wall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/house/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/house/WoodHouseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/pizza/MeatLoversPizzaBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/pizza/PizzaBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/pizza/PizzaDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/pizza/VeggieLoversPizzaBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/vacation/Accommodation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/vacation/CityVacationBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/vacation/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/vacation/OutdoorsVacationBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/vacation/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/vacation/Tent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/vacation/Vacation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/vacation/VacationBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/builder/vacation/VacationDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/collections/Collections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/collections/iterator/Cafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/collections/iterator/DinerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/collections/iterator/DinerMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/collections/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/collections/iterator/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/collections/iterator/PancakeHouseMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/collections/iterator/PancakeHouseMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/collections/iterator_builtin/Cafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/collections/iterator_builtin/DinerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/collections/iterator_builtin/DinerMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/collections/iterator_builtin/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/collections/iterator_builtin/PancakeHouseMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/BPMObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/BeatBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/BeatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/BeatModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/BeatModelInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/BeatObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/ControllerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/DJTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/DJView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/DJViewServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/HeartAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/HeartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/HeartModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/HeartModelInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/HeartTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/jsp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/jsp/djview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combined/djview/jsp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/adapter/DecoyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/adapter/DuckCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/adapter/DuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/adapter/Goose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/adapter/GooseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/adapter/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/adapter/Quackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/adapter/RedheadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/adapter/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/composite/AbstractDuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/composite/CountingDuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/composite/DecoyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/composite/DuckCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/composite/DuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/composite/DuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/composite/Flock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/composite/Goose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/composite/GooseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/composite/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/composite/QuackCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/composite/Quackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/composite/RedheadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/composite/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/decorator/DecoyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/decorator/DuckCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/decorator/DuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/decorator/Goose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/decorator/GooseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/decorator/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/decorator/QuackCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/decorator/Quackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/decorator/RedheadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/decorator/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/ducks/DecoyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/ducks/DuckCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/ducks/DuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/ducks/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/ducks/Quackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/ducks/RedheadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/ducks/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/factory/AbstractDuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/factory/CountingDuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/factory/DecoyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/factory/DuckCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/factory/DuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/factory/DuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/factory/Goose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/factory/GooseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/factory/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/factory/QuackCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/factory/Quackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/factory/RedheadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/factory/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/.QuackDecorator.java.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/AbstractDuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/CountingDuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/DecoyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/DuckCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/DuckFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/DuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/Flock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/Goose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/GooseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/Observable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/QuackCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/QuackObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/Quackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/Quackologist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/RedheadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/combining/observer/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/diner/Cook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/diner/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/diner/Diner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/diner/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/diner/Waitress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/CeilingFan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/CeilingFanHighCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/CeilingFanMediumCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/CeilingFanOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/Hottub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/HottubOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/HottubOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/LivingroomLightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/LivingroomLightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/MacroCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/RemoteLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/StereoOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/StereoOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/StereoOnWithCDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/TVOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/party/TVOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/CeilingFan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/CeilingFanOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/CeilingFanOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/GarageDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/GarageDoorDownCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/GarageDoorUpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/Hottub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/HottubOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/HottubOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/LivingroomLightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/LivingroomLightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/RemoteLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/StereoOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/StereoOnWithCDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remote/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remoteWL/CeilingFan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remoteWL/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remoteWL/GarageDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remoteWL/Hottub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remoteWL/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remoteWL/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remoteWL/RemoteLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remoteWL/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/remoteWL/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/simpleremote/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/simpleremote/GarageDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/simpleremote/GarageDoorOpenCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/simpleremote/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/simpleremote/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/simpleremote/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/simpleremote/RemoteControlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/simpleremote/SimpleRemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/simpleremoteWL/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/simpleremoteWL/GarageDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/simpleremoteWL/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/simpleremoteWL/RemoteControlTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/simpleremoteWL/SimpleRemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/swing/SwingCommandExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/undo/CeilingFan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/undo/CeilingFanHighCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/undo/CeilingFanLowCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/undo/CeilingFanMediumCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/undo/CeilingFanOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/undo/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/undo/DimmerLightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/undo/DimmerLightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/undo/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/undo/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/undo/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/undo/NoCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/undo/RemoteControlWithUndo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/command/undo/RemoteLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/composite/menu/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/composite/menu/MenuComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/composite/menu/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/composite/menu/MenuTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/composite/menu/Waitress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/composite/menuiterator/CompositeIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/composite/menuiterator/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/composite/menuiterator/MenuComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/composite/menuiterator/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/composite/menuiterator/MenuTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/composite/menuiterator/NullIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/composite/menuiterator/Waitress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/io/InputTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/io/LowerCaseInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/pizza/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/pizza/Olives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/pizza/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/pizza/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/pizza/ThickcrustPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/pizza/ThincrustPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/pizza/ToppingDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzz/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzz/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzz/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzz/Decaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzz/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzz/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzz/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzz/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzz/Soy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzz/StarbuzzCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzz/Whip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzzWithSizes/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzzWithSizes/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzzWithSizes/DarkRoast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzzWithSizes/Decaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzzWithSizes/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzzWithSizes/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzzWithSizes/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzzWithSizes/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzzWithSizes/Soy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzzWithSizes/StarbuzzCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/decorator/starbuzzWithSizes/Whip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/ducks/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/ducks/DuckAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/ducks/DuckTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/ducks/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/ducks/Turkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/ducks/TurkeyAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/ducks/TurkeyTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/ducks/WildTurkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/facade/hometheater/Amplifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/facade/hometheater/CdPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/facade/hometheater/DvdPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/facade/hometheater/HomeTheaterFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/facade/hometheater/HomeTheaterTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/facade/hometheater/PopcornPopper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/facade/hometheater/Projector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/facade/hometheater/Screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/facade/hometheater/TheaterLights.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/facade/hometheater/Tuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/challenge/Calendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/challenge/CalendarTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/challenge/PacificCalendar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/challenge/Zone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/challenge/ZoneCentral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/challenge/ZoneEastern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/challenge/ZoneFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/challenge/ZoneMountain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/challenge/ZonePacific.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/BlackOlives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/ChicagoPizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/ChicagoPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/ClamPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/Clams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/Dough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/Eggplant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/FreshClams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/FrozenClams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/Garlic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/MarinaraSauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/MozzarellaCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/Mushroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/NYPizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/NYPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/Onion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/ParmesanCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/Pepperoni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/PepperoniPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/PizzaIngredientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/PizzaTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/PlumTomatoSauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/RedPepper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/ReggianoCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/Sauce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/SlicedPepperoni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/Spinach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/ThickCrustDough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/ThinCrustDough.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/VeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzaaf/Veggies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzafm/ChicagoPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzafm/ChicagoStyleCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzafm/ChicagoStyleClamPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzafm/ChicagoStylePepperoniPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzafm/ChicagoStyleVeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzafm/DependentPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzafm/NYPizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzafm/NYStyleCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzafm/NYStyleClamPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzafm/NYStylePepperoniPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzafm/NYStyleVeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzafm/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzafm/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzafm/PizzaTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzas/CheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzas/ClamPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzas/PepperoniPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzas/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzas/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzas/PizzaTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzas/SimplePizzaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/factory/pizzas/VeggiePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/flyweight/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/flyweight/ConiferTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/flyweight/DeciduousTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/flyweight/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/flyweight/TreeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermerger/AlternatingDinerMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermerger/ArrayIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermerger/ArrayListIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermerger/DinerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermerger/DinerMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermerger/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermerger/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermerger/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermerger/MenuTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermerger/PancakeHouseMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermerger/PancakeHouseMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermerger/Waitress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergercafe/AlternatingDinerMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergercafe/CafeMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergercafe/DinerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergercafe/DinerMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergercafe/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergercafe/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergercafe/MenuTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergercafe/PancakeHouseMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergercafe/Waitress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergeri/AlternatingDinerMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergeri/DinerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergeri/DinerMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergeri/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergeri/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergeri/MenuTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergeri/PancakeHouseMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/dinermergeri/Waitress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/implicit/DinerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/implicit/DinerMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/implicit/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/implicit/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/implicit/MenuTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/implicit/PancakeHouseMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/implicit/Waitress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/transition/DinerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/transition/DinerMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/transition/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/transition/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/transition/MenuTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/transition/PancakeHouseMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterator/transition/Waitress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterenum/EI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterenum/EnumerationIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterenum/EnumerationIteratorTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterenum/IteratorEnumeration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/iterenum/IteratorEnumerationTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/simple/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/simple/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/simple/SimpleObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/simple/SimpleSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/simple/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/simpleobservable/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/simpleobservable/SimpleObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/simpleobservable/SimpleSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/swing/SwingObserverExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weather/CurrentConditionsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weather/DisplayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weather/ForecastDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weather/HeatIndexDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weather/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weather/StatisticsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weather/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weather/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weather/WeatherStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weather/WeatherStationHeatIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weatherobservable/CurrentConditionsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weatherobservable/DisplayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weatherobservable/ForecastDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weatherobservable/HeatIndexDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weatherobservable/StatisticsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weatherobservable/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weatherobservable/WeatherStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/observer/weatherobservable/WeatherStationHeatIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/prototype/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/prototype/Dragon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/prototype/Drakon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/prototype/Monster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/prototype/monsters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumball/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumball/GumballMachineRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumball/GumballMachineTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumball/GumballMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumball/GumballMonitorTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumball/HasQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumball/NoQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumball/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumball/SoldOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumball/SoldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumball/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumball/WinnerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumballmonitor/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumballmonitor/GumballMachineTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumballmonitor/GumballMonitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumballmonitor/HasQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumballmonitor/NoQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumballmonitor/SoldOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumballmonitor/SoldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumballmonitor/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/gumballmonitor/WinnerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/javaproxy/MatchMakingTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/javaproxy/NonOwnerInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/javaproxy/OwnerInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/javaproxy/PersonBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/javaproxy/PersonBeanImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/virtualproxy/ImageComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/virtualproxy/ImageProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/proxy/virtualproxy/ImageProxyTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/singleton/chocolate/ChocolateBoiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/singleton/chocolate/ChocolateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/singleton/classic/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/singleton/classic/SingletonClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/singleton/dcl/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/singleton/dcl/SingletonClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/singleton/stat/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/singleton/stat/SingletonClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/singleton/subclass/CoolerSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/singleton/subclass/HotterSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/singleton/subclass/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/singleton/subclass/SingletonTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/singleton/threadsafe/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/singleton/threadsafe/SingletonClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumball/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumball/GumballMachineTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumballstate/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumballstate/GumballMachineTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumballstate/HasQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumballstate/NoQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumballstate/SoldOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumballstate/SoldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumballstate/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumballstatewinner/GumballMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumballstatewinner/GumballMachineTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumballstatewinner/HasQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumballstatewinner/NoQuarterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumballstatewinner/SoldOutState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumballstatewinner/SoldState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumballstatewinner/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/state/gumballstatewinner/WinnerState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/DecoyDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/FakeQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/FlyNoWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/FlyRocketPowered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/MiniDuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/MiniDuckSimulator1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/ModelDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/MuteQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/Quack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/QuackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/RedHeadDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/RubberDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/Squeak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/challenge/BasicCameraApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/challenge/CameraPlusApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/challenge/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/challenge/PhoneCameraApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/challenge/PhotoWithPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/challenge/ShareStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/challenge/Social.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/strategy/challenge/Txt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/templatemethod/applet/AppletSource.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/templatemethod/applet/MyApplet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/templatemethod/barista/BeverageTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/templatemethod/barista/CaffeineBeverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/templatemethod/barista/CaffeineBeverageWithHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/templatemethod/barista/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/templatemethod/barista/CoffeeWithHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/templatemethod/barista/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/templatemethod/barista/TeaWithHook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/templatemethod/frame/MyFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/templatemethod/simplebarista/Barista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/templatemethod/simplebarista/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/templatemethod/simplebarista/Tea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/templatemethod/sort/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/src/headfirst/designpatterns/templatemethod/sort/DuckSortTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns-master/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Head-First-Design-Patterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwingPatternExample/SwingPatternExample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwingPatternExample/src/AngelListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwingPatternExample/src/DevilListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SwingPatternExample/src/SwingObserverExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeatherAppObserver/WeatherAppObserver.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeatherAppObserver/src/CurrentConditionsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeatherAppObserver/src/DisplayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeatherAppObserver/src/ForecastDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeatherAppObserver/src/HeatIndexDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeatherAppObserver/src/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeatherAppObserver/src/StatisticsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeatherAppObserver/src/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeatherAppObserver/src/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeatherAppObserver/src/WeatherStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Duck/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Duck/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Duck/ModelDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fly/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fly/FlyNoWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fly/FlyRocketPowered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fly/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MiniDuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quack/MuteQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quack/Quack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quack/QuackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quack/Squeak.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YtbZqz9Aff9KyjQNYmeeQyTQqO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager" selected="Application.SwingObserverExample">
+    <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MiniDuckSimulator" />
+      <module name="Head-First-Design-Patterns" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwingObserverExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SwingObserverExample" />
+      <module name="SwingPatternExample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WeatherStation" />
+      <module name="WeatherAppObserver" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SwingObserverExample" />
+        <item itemvalue="Application.WeatherStation" />
+        <item itemvalue="Application.MiniDuckSimulator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c1a8ebc-775f-4867-afc4-72a1253aeda1" name="Default Changelist" comment="" />
+      <created>1583764896007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583764896007</updated>
+      <workItem from="1583764898256" duration="3130000" />
+      <workItem from="1583850377643" duration="7379000" />
+      <workItem from="1584042540536" duration="668000" />
+      <workItem from="1584116520593" duration="922000" />
+      <workItem from="1584120758567" duration="8065000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="721" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1584157518616">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="721" y="156" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584146633514" />
+    <state x="721" y="156" key="#com.intellij.ide.util.MemberChooser/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584042611700" />
+    <state x="721" y="156" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584157518616" />
+    <state x="627" y="242" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1583765119939">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="242" key="#com.intellij.ide.util.PackageChooserDialog/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583765119939" />
+    <state width="1865" height="242" key="GridCell.Tab.0.bottom" timestamp="1584301441863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="242" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584301441863" />
+    <state width="1865" height="242" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584039894152" />
+    <state width="1865" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1583969634735" />
+    <state width="1865" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584157831088" />
+    <state width="1848" height="240" key="GridCell.Tab.0.bottom/1680.0.1920.1040/-1680.29.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1583777463595" />
+    <state width="1865" height="242" key="GridCell.Tab.0.center" timestamp="1584301441861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="242" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584301441861" />
+    <state width="1865" height="242" key="GridCell.Tab.0.center/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584039894152" />
+    <state width="1865" height="242" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1583969634735" />
+    <state width="1865" height="242" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584157831087" />
+    <state width="1848" height="240" key="GridCell.Tab.0.center/1680.0.1920.1040/-1680.29.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1583777463595" />
+    <state width="1865" height="242" key="GridCell.Tab.0.left" timestamp="1584301441860">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="242" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584301441860" />
+    <state width="1865" height="242" key="GridCell.Tab.0.left/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584039894151" />
+    <state width="1865" height="242" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1583969634735" />
+    <state width="1865" height="242" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584157831087" />
+    <state width="1848" height="240" key="GridCell.Tab.0.left/1680.0.1920.1040/-1680.29.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1583777463595" />
+    <state width="1865" height="242" key="GridCell.Tab.0.right" timestamp="1584301441862">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="242" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584301441862" />
+    <state width="1865" height="242" key="GridCell.Tab.0.right/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584039894152" />
+    <state width="1865" height="242" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1583969634735" />
+    <state width="1865" height="242" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584157831088" />
+    <state width="1848" height="240" key="GridCell.Tab.0.right/1680.0.1920.1040/-1680.29.1680.1010/0.0.1680.1010@0.0.1680.1010" timestamp="1583777463595" />
+    <state x="100" y="100" width="1494" height="817" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584141513327">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="100" width="1494" height="817" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584141513327" />
+    <state x="441" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1584120786739">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="441" y="290" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584120786739" />
+    <state x="230" y="25" key="new project wizard" timestamp="1584157029126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="230" y="25" key="new project wizard/-1920.0.1920.1040/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583850408615" />
+    <state x="230" y="25" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1584157029126" />
+  </component>
+</project>

@@ -1,0 +1,5 @@
+# Default ignored files
+/workspace.xml
+../Head-First-Design-Patterns-master
+*.iml
+*.idea
